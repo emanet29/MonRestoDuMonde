@@ -13,6 +13,8 @@
 		4C009F0E20C146ED00CC9188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C009F0C20C146ED00CC9188 /* LaunchScreen.storyboard */; };
 		4C009F1920C148A000CC9188 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F1820C148A000CC9188 /* MenuController.swift */; };
 		4C009F1B20C148D500CC9188 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F1A20C148D500CC9188 /* ALaCarteController.swift */; };
+		4C009F1D20C14BA300CC9188 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F1C20C14BA300CC9188 /* MonTabBar.swift */; };
+		4C009F2020C14BEA00CC9188 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F1F20C14BEA00CC9188 /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4C009F0F20C146ED00CC9188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C009F1820C148A000CC9188 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		4C009F1A20C148D500CC9188 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		4C009F1C20C14BA300CC9188 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		4C009F1F20C14BEA00CC9188 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		4C009F0220C146EC00CC9188 /* MonRestaoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				4C009F1E20C14BD100CC9188 /* Utilitaires */,
 				4C009F1520C1484C00CC9188 /* Modele */,
 				4C009F1620C1485600CC9188 /* Vue */,
 				4C009F1720C1485F00CC9188 /* Controlleur */,
@@ -87,8 +92,17 @@
 			children = (
 				4C009F1820C148A000CC9188 /* MenuController.swift */,
 				4C009F1A20C148D500CC9188 /* ALaCarteController.swift */,
+				4C009F1C20C14BA300CC9188 /* MonTabBar.swift */,
 			);
 			path = Controlleur;
+			sourceTree = "<group>";
+		};
+		4C009F1E20C14BD100CC9188 /* Utilitaires */ = {
+			isa = PBXGroup;
+			children = (
+				4C009F1F20C14BEA00CC9188 /* Constantes.swift */,
+			);
+			path = Utilitaires;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C009F2020C14BEA00CC9188 /* Constantes.swift in Sources */,
+				4C009F1D20C14BA300CC9188 /* MonTabBar.swift in Sources */,
 				4C009F1920C148A000CC9188 /* MenuController.swift in Sources */,
 				4C009F0420C146EC00CC9188 /* AppDelegate.swift in Sources */,
 				4C009F1B20C148D500CC9188 /* ALaCarteController.swift in Sources */,

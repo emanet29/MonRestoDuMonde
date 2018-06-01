@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="1596" y="-209.14542728635683"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Mon Tab Bar-->
         <scene sceneID="lft-jP-2Wy">
             <objects>
-                <tabBarController id="cP2-Br-yVh" sceneMemberID="viewController">
+                <tabBarController id="cP2-Br-yVh" customClass="MonTabBar" customModule="MonRestaoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U7D-f4-HrR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,11 +44,11 @@
             </objects>
             <point key="canvasLocation" x="-294" y="123"/>
         </scene>
-        <!--Item 1-->
+        <!--Menu-->
         <scene sceneID="gD6-2S-b22">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rqb-8Z-tj5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="T6I-is-odS"/>
+                    <tabBarItem key="tabBarItem" title="Menu" id="T6I-is-odS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Sf1-ZD-tCA">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -92,11 +92,11 @@
             </objects>
             <point key="canvasLocation" x="1596" y="472"/>
         </scene>
-        <!--Item-->
+        <!--A la carte-->
         <scene sceneID="gQq-Lr-1Rz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OmL-Id-36k" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="End-Ed-glU"/>
+                    <tabBarItem key="tabBarItem" title="A la carte" id="End-Ed-glU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zo2-Au-y20">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
