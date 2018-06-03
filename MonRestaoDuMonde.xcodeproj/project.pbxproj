@@ -17,6 +17,10 @@
 		4C009F2020C14BEA00CC9188 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F1F20C14BEA00CC9188 /* Constantes.swift */; };
 		4C009F2220C14E2200CC9188 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2120C14E2200CC9188 /* MonNav.swift */; };
 		4C009F2420C4175800CC9188 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2320C4175800CC9188 /* MenuCell.swift */; };
+		4C009F2620C41C1200CC9188 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2520C41C1200CC9188 /* Plat.swift */; };
+		4C009F2820C41C6500CC9188 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2720C41C6500CC9188 /* Enums.swift */; };
+		4C009F2A20C41DCB00CC9188 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2920C41DCB00CC9188 /* Menu.swift */; };
+		4C009F2C20C41E8A00CC9188 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C009F2B20C41E8A00CC9188 /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		4C009F1F20C14BEA00CC9188 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		4C009F2120C14E2200CC9188 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		4C009F2320C4175800CC9188 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		4C009F2520C41C1200CC9188 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		4C009F2720C41C6500CC9188 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4C009F2920C41DCB00CC9188 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		4C009F2B20C41E8A00CC9188 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 		4C009F1520C1484C00CC9188 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				4C009F2520C41C1200CC9188 /* Plat.swift */,
+				4C009F2720C41C6500CC9188 /* Enums.swift */,
+				4C009F2920C41DCB00CC9188 /* Menu.swift */,
+				4C009F2B20C41E8A00CC9188 /* LesPlats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -186,8 +198,12 @@
 				4C009F2020C14BEA00CC9188 /* Constantes.swift in Sources */,
 				4C009F1D20C14BA300CC9188 /* MonTabBar.swift in Sources */,
 				4C009F2220C14E2200CC9188 /* MonNav.swift in Sources */,
+				4C009F2A20C41DCB00CC9188 /* Menu.swift in Sources */,
 				4C009F1920C148A000CC9188 /* MenuController.swift in Sources */,
+				4C009F2C20C41E8A00CC9188 /* LesPlats.swift in Sources */,
 				4C009F0420C146EC00CC9188 /* AppDelegate.swift in Sources */,
+				4C009F2620C41C1200CC9188 /* Plat.swift in Sources */,
+				4C009F2820C41C6500CC9188 /* Enums.swift in Sources */,
 				4C009F1B20C148D500CC9188 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

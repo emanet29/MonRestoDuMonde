@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+enum Type {
+    case entree
+    case platPrincipal
+    case dessert
+    
+    
+}
