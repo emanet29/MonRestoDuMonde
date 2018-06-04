@@ -142,16 +142,16 @@
         <scene sceneID="TpM-gK-Rc6">
             <objects>
                 <tableViewController id="dW5-h6-f9V" customClass="ALaCarteController" customModule="MonRestaoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qNK-ZU-Cbj">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qNK-ZU-Cbj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="151" id="EmW-Yf-vNo" customClass="PlatCell" customModule="MonRestaoDuMonde" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="151" id="EmW-Yf-vNo" customClass="PlatCell" customModule="MonRestaoDuMonde" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="151"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EmW-Yf-vNo" id="5ZQ-xK-zfR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Zb-r4-2Ua">
@@ -171,6 +171,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="zCz-MY-nwb" firstAttribute="leading" secondItem="3Zb-r4-2Ua" secondAttribute="trailing" constant="8" id="1dC-i7-LWT"/>
                                         <constraint firstItem="3Zb-r4-2Ua" firstAttribute="centerY" secondItem="5ZQ-xK-zfR" secondAttribute="centerY" id="Etd-6s-ptU"/>
@@ -179,6 +180,7 @@
                                         <constraint firstItem="zCz-MY-nwb" firstAttribute="trailing" secondItem="5ZQ-xK-zfR" secondAttribute="trailingMargin" id="sCZ-BH-J6t"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="descDuPlat" destination="zCz-MY-nwb" id="d0h-HD-LAa"/>
                                     <outlet property="imageDuPlat" destination="3Zb-r4-2Ua" id="u5o-3g-ZV6"/>

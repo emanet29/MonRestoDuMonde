@@ -13,7 +13,7 @@ class PlatCell: UITableViewCell {
     @IBOutlet weak var descDuPlat: UILabel!
     @IBOutlet weak var imageDuPlat: UIImageView!
     
-    var plat: Plat
+    var plat: Plat!
     
     func miseEnPlace(plat: Plat) {
         self.plat = plat
