@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -140,20 +141,48 @@
         <!--La Carte Controller-->
         <scene sceneID="TpM-gK-Rc6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ogQ-95-yED" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="dW5-h6-f9V" customClass="ALaCarteController" customModule="MonRestaoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qNK-ZU-Cbj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EmW-Yf-vNo">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="151" id="EmW-Yf-vNo" customClass="PlatCell" customModule="MonRestaoDuMonde" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="151"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EmW-Yf-vNo" id="5ZQ-xK-zfR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Zb-r4-2Ua">
+                                            <rect key="frame" x="26" y="25" width="128" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="128" id="AdR-On-Fz8"/>
+                                                <constraint firstAttribute="height" constant="100" id="pB2-ED-dK8"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCz-MY-nwb">
+                                            <rect key="frame" x="162" y="25" width="197" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="pGT-jj-d04"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="zCz-MY-nwb" firstAttribute="leading" secondItem="3Zb-r4-2Ua" secondAttribute="trailing" constant="8" id="1dC-i7-LWT"/>
+                                        <constraint firstItem="3Zb-r4-2Ua" firstAttribute="centerY" secondItem="5ZQ-xK-zfR" secondAttribute="centerY" id="Etd-6s-ptU"/>
+                                        <constraint firstItem="3Zb-r4-2Ua" firstAttribute="leading" secondItem="5ZQ-xK-zfR" secondAttribute="leadingMargin" constant="10" id="Wgo-jM-ydJ"/>
+                                        <constraint firstItem="zCz-MY-nwb" firstAttribute="centerY" secondItem="5ZQ-xK-zfR" secondAttribute="centerY" id="ggr-lP-YSI"/>
+                                        <constraint firstItem="zCz-MY-nwb" firstAttribute="trailing" secondItem="5ZQ-xK-zfR" secondAttribute="trailingMargin" id="sCZ-BH-J6t"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descDuPlat" destination="zCz-MY-nwb" id="d0h-HD-LAa"/>
+                                    <outlet property="imageDuPlat" destination="3Zb-r4-2Ua" id="u5o-3g-ZV6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -163,8 +192,9 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="CGI-QG-iai"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ogQ-95-yED" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1596" y="472"/>
+            <point key="canvasLocation" x="1596" y="471.8140929535233"/>
         </scene>
         <!--A la carte-->
         <scene sceneID="gQq-Lr-1Rz">
