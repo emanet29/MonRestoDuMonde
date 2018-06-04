@@ -25,6 +25,7 @@
 		4C8CB5C620C531560045E135 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5C520C531560045E135 /* PlatCell.swift */; };
 		4C8CB5C820C533040045E135 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5C720C533040045E135 /* ALaCarte.swift */; };
 		4C8CB5CA20C540AF0045E135 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5C920C540AF0045E135 /* DetailController.swift */; };
+		4C8CB5CC20C543FD0045E135 /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CB5CB20C543FD0045E135 /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		4C8CB5C520C531560045E135 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		4C8CB5C720C533040045E135 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		4C8CB5C920C540AF0045E135 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		4C8CB5CB20C543FD0045E135 /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				4C009F2320C4175800CC9188 /* MenuCell.swift */,
 				4C009F2D20C425C800CC9188 /* Degrade.swift */,
 				4C8CB5C520C531560045E135 /* PlatCell.swift */,
+				4C8CB5CB20C543FD0045E135 /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				4C8CB5C820C533040045E135 /* ALaCarte.swift in Sources */,
 				4C009F2A20C41DCB00CC9188 /* Menu.swift in Sources */,
 				4C009F1920C148A000CC9188 /* MenuController.swift in Sources */,
+				4C8CB5CC20C543FD0045E135 /* PlatVue.swift in Sources */,
 				4C009F2C20C41E8A00CC9188 /* LesPlats.swift in Sources */,
 				4C009F0420C146EC00CC9188 /* AppDelegate.swift in Sources */,
 				4C009F2620C41C1200CC9188 /* Plat.swift in Sources */,
